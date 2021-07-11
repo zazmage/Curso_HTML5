@@ -1,0 +1,41 @@
+<title> va dentro del head donde se quiera antes o despues del meta
+sirve para cambiar el texto de la pestaña del navegador y para que la
+página aparezca correctamente indexada y categorizada en los buscadores.
+
+Los buscadores le dan más importancia al title que al meta.
+
+<link> También va dentro del head, lo más habitual es que vaya a
+continuación del title, tiene la estructura rel="stylesheet"
+href="mihojadeestilos.css"/> No tiene barra de cierre.
+
+Enlaza o incluye documentos adicionales a nuestra página web como
+hojas de estilo o documentos Javascript, rel quiere decir relativo
+es un atributo que informa que tipo de archivo estamos agregando y
+href hace referencia a la ruta donde se encuentra el archivo que
+incluiremos.
+
+Los espacios verticales no se tienen en cuenta.
+
+En el body se incluyen algunas etiquetas adicionales:
+
+Cabecera <header>
+Barra de navegación <nav>
+Barra lateral <aside>
+Contenido principal <section>
+Información institucional <footer>
+
+Modelo de caja contenedor <div> construye una especie de caja donde
+almacenar diferentes contenidos para darle estructura a la página web.
+
+<h1> Se utiliza para títulos, para destacar información de texto
+relevante va desde h1 hasta h6. estos títulos son importantes para los
+buscadores.
+
+<header> es importante para que nuestra página sea compatible con todos
+los dispositivos en los que se ejecute la página web.
+
+<ul></ul> se utilizan para construir listas desordenadas y dentro van 
+las etiquetas <li></li> y se tendran tantas como elementos tenga la 
+barra de navegación.
+
+<ol></ol> Listas ordenadas

@@ -1,0 +1,40 @@
+HTML abarca HTML, CSS y Javascript
+HTML es un lenguaje de etiquetas que da estructura a las páginas web
+CSS Da apariencia a las páginas web
+Javascript Controla la parte lógica de la página web, interactividad y 
+animación
+
+HTML
+Las etiquetas en html van en pares, una de abertura y otra de cierre.
+<!DOCTYPE html> especifica la versión de html en la que se trabaja.
+Las etiquetas por convensión van en minúsculas.
+
+En el head se incluye información como las hojas de estilo, archivos
+Javascript externos e internos, iconos, título de la página web, la
+mayoría de la información no se verá.
+
+Las etiquetas meta sirven para que un buscador pueda categorizar nuestra
+página y posicionarla en los resultados de las búsquedas.
+
+<meta charset="iso-8559-1"/> Especifica el tipo de caractéres de la
+página.
+
+Las etiquetas meta no tienen su par de cierre. por lo que se incluye la
+barra de cierre al final.
+
+HTML es flexible por lo que si se olvidan algunas etiquetas de cierre
+es posible que los navegadores aún así muestren la información.
+
+<meta name="description" content="Página de enseñanza html 5"/>
+Da una descripción de la página web, los buscadores categorizan con esto
+la página web.
+
+<meta name="keywords" content="html5, css3, Javascript, 
+diseño web"/>
+
+Las etiquetas tambien contienen atributos, por ejemplo el atributo
+<html lang="es">
+
+<body> es la mas importante de la página web puesto que almacena lo que
+se verá dentro de la página web.
+
