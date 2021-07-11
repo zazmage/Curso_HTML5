@@ -1,0 +1,63 @@
+<aside></aside> Se usa normalmente como barra de vinculos al costado.
+<blockquote></blockquote> Se usa para citas largas.
+
+La posición de las barras y demás añadidos estéticos se gestiona con
+CSS.
+
+<section></section> Contenido principal de la página.
+<p></p> Contiene un párrafo.
+
+<footer></footer> Pie de página, incluye contenido adicional.
+
+Las etiquetas header y footer son muy flexibles por lo que no sirven
+unicamente para establecer la cabecera y el pie, también pueden
+establecer la cabecera y el pie de otros contenidos de nuestro
+documento.
+
+<article></article> Agrupa contenido que tiene algo en común.
+
+Las etiquetas de un documento html siguen una jerarquía
+Padres -> Hijos y hermanos.
+
+<html>
+    <head>
+        <title>
+        <meta>
+        <link>
+    </head>
+    <body>
+        <header>
+        </header>
+        <nav>
+            <ul>
+                <li>
+        </nav>
+        <section>
+            <article>
+                <header>
+                    <h1>
+                </header>
+                <p>
+                <footer>
+                    <p>
+                </footer>
+            </article>
+        </section>
+        <aside>
+            <blockquote>
+        </aside>
+        <footer>
+        </footer>
+    </body>
+</html>
+
+Son padres, hijos o hermanos según las etiquetas de cierre.
+
+Los títulos <h...> sirven también para determinar la jerarquía o la
+importancia que tiene el texto que va dentro de las etiquetas h.
+h2 tiene menos importancia que h1.
+
+<hgroup></hgroup> Agrupa una estructura jerarquica de títulos h.
+Si no hay estructura jerarquica podemos prescindir del hgroup.
+
+Para algunos navegadores solo puede existir un solo h1.
