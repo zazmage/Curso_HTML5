@@ -1,0 +1,38 @@
+<figure></figure> Se utiliza para insertar elementos que tienen algo que
+ver con el contenido de la página web pero a su vez son elementos 
+independientes como imágenes o videos (elementos externos en general).
+
+<img src=""/> hace referencia a una imagen, src hace referencia a la 
+ruta donde se guarda el elemento.
+
+<figcaption></figcaption> Agrega pies de imágenes.
+
+<mark></mark> Resalta texto, por defecto funciona como un resaltador,
+se puede modificar con css.
+
+<em></em> Indica énfasis, sustituye la etiqueta <i></i>. i pone el texto
+en cursiva y el sentido semántico es para indicar énfasis.
+
+<strong></strong> Marca texto importante, el efecto es el mismo de 
+<b></b>, esta última está siendo sustituída, el sentido semántico es que 
+ese texto es importante, pone el texto en negrita, los buscadores lo 
+usan para categorizar páginas web.
+
+<small></small> Pone la letra mucho más pequeña. Su sentido semántico
+es para presentar textos legales, copyright, etc.
+
+<cite></cite> Resalta títulos de trabajos de autor, libros, películas,
+también pone el texto en cursivas.
+
+<adress></adress> Información de contacto, debe ir dentro del footer.
+Pone el texto en cursiva y añade un salto de línea superior e 
+inferior (etiqueta blocklevel en css).
+
+<time></time> Representa fechas y horas. contiene el atributo datetime
+con formato año-mes-día o año/mes/día y pubdate nos informa que el 
+atributo de time pertenece a una fecha o a una hora.
+
+Lo importante de HTML no es tanto el aspecto visual sino el sentido
+semántico que se le da a la información que hay en el interior de las 
+etiquetas y que los navegadores sepan identificar los diferentes 
+elementos de las páginas.
