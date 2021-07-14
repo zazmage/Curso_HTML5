@@ -1,0 +1,57 @@
+CSS se encarga de la apariencia de la página, su código puede ir como
+un archivo independiente, en la cabecera del documento html o como una
+etiqueta.
+
+En un archivo independiente se modifican todas las páginas que componen
+nuestro sitio web.
+
+En la cabecera de una página concreta el código css modifica la
+apariencia de esa página en concreto.
+
+En una etiqueta en concreto se modifica la apariencia de esa etiqueta
+en concreto, esta opción esta desaconsejada debido a la posible gran
+cantidad de etiquetas por lo que se utiliza en casos muy concretos.
+
+MODELO CAJA CONTENEDOR
+Base de CSS
+
+Las etiquetas HTML son de dos tipos Block e Inline
+Block generan un salto de línea por arriba y por debajo, ocupan el 100%
+del ancho del documento.
+Inline No generan un saldo de línea.
+
+La referencia a los archivos CSS se implementa con la etiqueta Link.
+
+body{}: Selector de etiqueta, vamos a cambiar la apariencia de la 
+etiqueta body.
+
+background-color:<color>: Cambia el color del contenido de una etiqueta.
+
+Cada que creo una etiqueta de estructura estoy creando una caja que
+tiene un salto de linea y que ocupa horizontalmente el 100% de la 
+pantalla.
+
+Lo que hay dentro de las etiquetas como nav o aside también tienen 
+estructura Block por ejemplo las etiquetas li o p.
+
+Los navegadores incluyen CSS por defecto de modo que asigna tamaño y 
+color a las páginas.
+
+css reset resetea la configuración css de los navegadores para que todos
+inicien desde un mismo punto de partida a crear la estetica de la
+página.
+
+Al escribir una etiqueta en general en css se cambian las 
+características de TODAS las etiquetas con ese nombre en el documento
+HTML, si quiero aplicar una modificación a por ejemplo unicamente la 
+etiqueta header principal utilizamos el selector id.
+
+Existen en css selectores de etiqueta, selectores id y selectores de 
+clase.
+
+El selector id se utiliza para dar apariencia a un único elemento dentro
+de la página web.
+
+Id se utiliza primero creando un selector de tipo id con el símbolo
+#<nombre identificativo> y luego asignarlo con la etiqueta id en el
+código HTML.
