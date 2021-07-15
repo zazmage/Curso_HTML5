@@ -1,0 +1,32 @@
+Para cambiar la propiedad block a la propiedad inline se hace uso de
+la propiedad display = inline.
+
+La propiedad float permite cambiar la posicion de las etiquetas
+de nuestra página rompiendo el flujo de posicionamiento por defecto y
+haciendo que ya no se ocupe el 100% del ancho y los demás elementos
+rodearán al elemento etiquetado con el float, el float hace "flotar"
+la caja por lo que la "saca" por lo que las propiedades aplicadas a
+otras cajas se toman como si no existiera la caja flotante.
+
+La propiedad margin hace referencia a los espacios en blanco alrededor
+de una caja.
+
+Clear rompe el funcionamiento del float para el elemento en el que lo
+aplico por lo que podrá separar la caja de las cajas flotantes.
+
+Padding: nos permite definir el espacio que hay desde el borde de la
+caja al contenido de la misma.
+
+Una misma hoja de estilos nos permite modificar la apariencia de varias
+páginas.
+
+Una forma de modificar un parametro en una pagina particular saliendose
+de la estructura de la hoja de estilos es con el uso de la etiqueta
+style al interior de la página en particular y modificando el parámetro
+deseado de la hoja de estilos.
+
+Un estilo de cabecera en HTML consiste en <style></style> antiguamente
+había que especificar el tipo del estilo que ibamos a crear, en HTML5 
+no es necesario.
+
+También podemos aplicar un estilo inline.

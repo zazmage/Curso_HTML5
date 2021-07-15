@@ -1,0 +1,32 @@
+#cabeceraweb{
+    background-color: cyan;
+}
+
+#navegacionprincipal{
+    background-color: orangered;
+
+}
+
+#barralateral{
+    background-color: teal;
+    float: left;
+    height: 1080px;
+}
+
+#contenidoprincipal{
+    background-color: yellowgreen;
+    margin-left: 200px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#pieprincipal{
+    background-color: plum;
+    clear: both;
+    margin-top: 50px;
+}
+
+li{
+    background-color: goldenrod;
+    display: inline;
+}
