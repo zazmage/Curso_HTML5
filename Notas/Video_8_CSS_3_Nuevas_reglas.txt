@@ -1,0 +1,62 @@
+Nuevos selectores.
+
+Selectores de clase: sintaxis .<nombre del selector> se aplica a tantos
+elementos de la página como se deseen. En CSS3 tenemos aún más
+selectores.
+
+Con el atributo name se pueden identificar uno o varios elementos en el
+documento HTML, [name = 'nombre del identificador'].
+
+Con el símbolo ^ (acento circunflejo) se permite que el identificador
+de clase identifique las etiquetas que tengan un atributo name que
+empiece por ciertas letras.
+
+El símbolo $ es lo mismo que ^ pero para los que terminen.
+
+El símbolo * aplica la propiedad a todos los elementos que se encuentren
+en cualquier parte del parámetro name.
+
+Pseudoclases.
+
+nth-child(Índice de la etiqueta hermana): pone un selector a todas las
+etiquetas correspondientes al índice especificado, por ejemplo la
+segunda etiqueta p hermana que se encuentre.
+
+odd: aplica el estilo a todos los elementos impares.
+even: Los pares.
+
+first-child selecciona el primer hijo correspondiente a las etiquetas
+hermanas.
+
+last-child selecciona el último hijo correspondiente a las etiquetas
+hermanas.
+
+only-child: Selecciona aquellas etiquetas que son hijas únicas.
+
+La etiqueta span no añade nada en cuanto a formato, se utiliza para
+aplicar estilos a palabras individuales o grupos de palabras.
+
+text-align: Centra u organiza a izquierda o derecha el texto dentro de
+un contenedor.
+
+margin: 15px auto; 15 pixeles de separación del contenedor por arriba y
+por debajo y que haga un margen automático a izquierda y derecha
+centrando automaticamente el contenedor.
+
+padding: 15px; al poner una única medida se especifican los 4 lados,
+arriba, abajo, izquierda, derecha en ese orden.
+
+border: 3px solid red; 3 pixeles por todos los lados de tipo solido y de
+color rojo.
+
+border-radius: Regla css3 que permite redondear los bordes, al poner una
+única medida se especifican las 4 esquinas a la vez.
+
+font: bold 36px Verdana; Texto en negrita de 36px de tamaño y tipografía
+Verdana.
+
+box-shadow: gray 5px 5px 5px; Añade una sombra gris con 5 píxeles de 
+desplazamiento horizontal a la derecha y 5 píxeles de desplazamiento 
+vertical hacia abajo con 5px de difuminado de la sombra respectivamente.
+
+text-shadow: Lo mismo que arriba pero para texto.
