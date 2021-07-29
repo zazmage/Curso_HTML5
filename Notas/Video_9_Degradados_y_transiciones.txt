@@ -1,0 +1,5 @@
+@font-face Identificador que permite tener una fuente determinada en la
+página web aunque no esté instalada en el computador que la ejecute.
+
+font-family: Nombre de la fuente personalizada
+src: url('') Directorio de la fuente.
