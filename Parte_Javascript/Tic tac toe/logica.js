@@ -121,6 +121,7 @@ function compruebaGanador(){
             botones[i].textContent = '';
         }
         siguiente = 'x';
+        document.getElementById('jugador').textContent = `Siguiente jugador: ${siguiente}`;
     }
     else{
         let empate = 0;
@@ -135,6 +136,7 @@ function compruebaGanador(){
             }
             document.getElementById('ganador').textContent = 'Empate!';
             siguiente = 'x';
+            document.getElementById('jugador').textContent = `Siguiente jugador: ${siguiente}`;
             empate = 0;
         }else{
             empate = 0;
